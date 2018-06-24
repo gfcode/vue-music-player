@@ -1,0 +1,14 @@
+@import './reset.scss';
+@import './variable.scss';
+@import './icon.scss';
+
+body,
+html {
+  line-height: 1;
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+  font-size: $font-size-m;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  background: $color-bg-bright;
+  color: $color-text-dark;
+}

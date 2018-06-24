@@ -1,0 +1,57 @@
+// 颜色
+$color-theme-red: rgb(212, 68, 57);
+$color-text-bright: #fff;
+$color-text-gray-bright: #d1d6da;
+$color-text-gray: #757575;
+$color-text-dark: #2e3030;
+$color-bg-bright: #f2f3f4;
+$color-bg-highlight: rgb(253, 108, 98);
+$color-bg-dialog: rgb(204, 204, 204);
+$color-bg-gray: #757575;
+$color-bg-dark: rgba(0, 0, 0, 0.3);
+$color-border-gray: #ccc;
+
+//字体大小
+$font-size-s-s: 10px;
+$font-size-s: 11px;
+$font-size-s-x: 12px;
+$font-size-m-s: 13px;
+$font-size-m: 14px;
+$font-size-m-x: 16px;
+$font-size-l-s: 17px;
+$font-size-l: 18px;
+$font-size-l-x: 22px;
+
+@mixin one-row-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin two-row-ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+@mixin blur($px) {
+  -webkit-filter: blur($px);
+  -moz-filter: blur($px);
+  -ms-filter: blur($px);
+  filter: blur($px);
+}
+
+@mixin artist {
+  color: $color-text-gray;
+  font-size: $font-size-s;
+}
+
+@mixin icon__play-count {
+  position: absolute;
+  top: 0.5vw;
+  right: 3vw;
+  color: $color-text-bright;
+  font-size: $font-size-s-s;
+}
