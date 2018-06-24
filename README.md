@@ -2,9 +2,39 @@
 
 > 基于VUE2仿网易云音乐的播放器
 
+## 技术栈
+
+### 前端
+
+- Vue
+
+- Vuex
+
+- vue-router
+
+- vue-lazyload
+
+- better-scroll
+
+- SCSS
+
+- 部分ES6\8语法
+
+### 后端
+
+  使用[NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
+  所提供的Node.js API
+
+
+### 有时间再介绍
+
 ## TODO
 
-搜索，登录
+- 随机播放
+
+- 搜索
+
+- 登录
 
 ## Build Setup
 
